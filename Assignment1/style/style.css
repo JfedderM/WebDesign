@@ -1,0 +1,29 @@
+
+h1 {
+padding: 35px;
+text-align: center;
+background-color: dimgray;
+font-family: Verdana;
+font-size: 80px;
+}
+
+h2, h3 {
+font-size: 30px;
+font-family: Franklin Gothic Medium;
+color: white;
+text-align: center;
+} 
+
+body {
+background-color: black;
+color: white;
+padding-bottom: 50px;
+}
+
+p {
+font-family: Georgia;
+font-size: 18px;
+line-height: 1.6;
+max-width: 50%;
+margin: 0 auto 30px;
+}
