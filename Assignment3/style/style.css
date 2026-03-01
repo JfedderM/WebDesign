@@ -4,47 +4,50 @@ padding: 20px;
 text-align: center;
 color: rgb(255, 255, 255);
 background-color: rgb(116, 116, 116);
-font-family: "Indie Flower", cursive;
+font-family: 'Trebuchet MS';
 font-size: 80px;
 margin-top: 9px;
+margin-bottom: 9px;
 }
 
 .section-img {
 display: block;
 margin: 20px auto;
 height: auto;
-max-width: 900px;
+max-width: 80%;
 }
 
 h2 {
-padding: 10px;
 text-align: center;
 font-family: "Indie Flower", cursive;
 font-size: 40px;
-margin-top: 30px;
 color: rgb(0, 0, 0);
+margin-top: 5px;
+margin-bottom: 10px;
 }
 
 .info-box {
-background-image: url("/images/paper.png");
-background-size: 100%;
-background-repeat: no-repeat;
-
+background-image: url("/Assignment3/images/paper.png");
+background-repeat: repeat-y;
+background-size: 100% auto;
+background-position: center;
 padding: 60px;
-margin:  60px auto;
-max-width: 850px;
-
-font-family: "Indie Flower", cursive;
+margin: 50px auto;
+max-width: 90%;
 font-size: 30px;
 }
 
 .info-box p {
+padding: 30px;
+text-align: center;
+font-family: "Indie Flower", cursive;
+font-weight: bold;
 color: #2b2b2b;
 }
 
 h3 {
 font-size: 30px;
-font-family: "Indie Flower", cursive;
+font-family: 'Trebuchet MS';
 color: rgb(37, 37, 37);
 text-align: center;
 margin-top: 40px;
@@ -57,7 +60,7 @@ padding-bottom: 50px;
 }
 
 p {
-font-family: "Indie Flower", cursive;
+font-family: 'Trebuchet MS';
 font-size: 30px;
 line-height: 1.6;
 margin-bottom: 30px;
@@ -88,7 +91,7 @@ nav a {
 color:rgb(0, 0, 0);
 text-decoration: none;
 font-size: 19px;
-font-family: "Indie Flower", cursive;
+font-family: 'Trebuchet MS';
 }
 
 
@@ -115,7 +118,7 @@ border: 14px solid white;
 
 blockquote {
 text-align: center;
-font-family: "Indie Flower", cursive;
+font-family: 'Trebuchet MS';
 font-size: 25px;
 color: rgb(255, 255, 255);
 margin-top: 25px;
@@ -139,36 +142,50 @@ border: 5px solid white;
 
 table {
 width: 90%;
-margin: 40px auto;
+margin: 90px auto;
 border-collapse: collapse;
-background-color: white;
+background-color: transparent;
 }
+
+.paper-box {
+background-image: url("../images/paper.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+max-width: 90%;
+margin: 8px auto;
+padding: 60px;
+}
+
 
 th, td {
 border: 2px solid black;
 padding: 12px;
 text-align: center;
-font-family: "Indie Flower", cursive;
 }
 
 th {
-background-color: rgb(0, 0, 0);
-color: white;
-font-size: 22px;
+background-color: transparent;
+color: rgb(0, 0, 0);
+font-size: 26px;
+font-family: "Indie Flower", cursive;
 }
 
 td {
-font-size: 18px;
+font-size: 19px;
+font-family: "Indie Flower", cursive;
+font-weight: bold;
 }
 
 fieldset {
 background-color: rgb(255, 255, 255);
 padding: 30px;
 width: 80%;
-margin: 50px auto;
+margin: 20px auto;
+margin-bottom: 60px;
 border: 3px solid white;
 border-radius: 10px;
-font-family: "Indie Flower", cursive;
+font-family: 'Trebuchet MS';
 }
 
 legend {
