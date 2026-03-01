@@ -4,8 +4,8 @@ padding: 20px;
 text-align: center;
 color: rgb(255, 255, 255);
 background-color: rgb(116, 116, 116);
-font-family: 'Trebuchet MS';
-font-size: 40px;
+font-family: "Indie Flower", cursive;
+font-size: 80px;
 margin-top: 9px;
 }
 
@@ -26,25 +26,25 @@ color: rgb(0, 0, 0);
 }
 
 .info-box {
-background-image: url("../images/paper.png");
-background-size: cover;
+background-image: url("/images/paper.png");
+background-size: 100%;
 background-repeat: no-repeat;
-background-position: center;
-padding: 90px;
-margin: 50px auto;
-max-width: 80%;
-text-align: center;
-}
 
-.info-box p {
-color: rgb(0, 0, 0);
+padding: 60px;
+margin:  60px auto;
+max-width: 850px;
+
 font-family: "Indie Flower", cursive;
 font-size: 30px;
 }
 
+.info-box p {
+color: #2b2b2b;
+}
+
 h3 {
 font-size: 30px;
-font-family: 'Trebuchet MS';
+font-family: "Indie Flower", cursive;
 color: rgb(37, 37, 37);
 text-align: center;
 margin-top: 40px;
@@ -57,8 +57,8 @@ padding-bottom: 50px;
 }
 
 p {
-font-family: 'Trebuchet MS';
-font-size: 20px;
+font-family: "Indie Flower", cursive;
+font-size: 30px;
 line-height: 1.6;
 margin-bottom: 30px;
 }
@@ -88,6 +88,7 @@ nav a {
 color:rgb(0, 0, 0);
 text-decoration: none;
 font-size: 19px;
+font-family: "Indie Flower", cursive;
 }
 
 
@@ -114,7 +115,7 @@ border: 14px solid white;
 
 blockquote {
 text-align: center;
-font-family: 'Trebuchet MS';
+font-family: "Indie Flower", cursive;
 font-size: 25px;
 color: rgb(255, 255, 255);
 margin-top: 25px;
@@ -147,7 +148,7 @@ th, td {
 border: 2px solid black;
 padding: 12px;
 text-align: center;
-font-family: 'Trebuchet MS';
+font-family: "Indie Flower", cursive;
 }
 
 th {
@@ -167,7 +168,7 @@ width: 80%;
 margin: 50px auto;
 border: 3px solid white;
 border-radius: 10px;
-font-family: 'Trebuchet MS';
+font-family: "Indie Flower", cursive;
 }
 
 legend {
