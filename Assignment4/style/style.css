@@ -1,0 +1,131 @@
+body {
+margin: 0;
+font-family: 'Tahoma';
+text-align: center;
+}
+
+.nav {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+padding: 15px;
+background-color: #229c5b;
+}
+
+.nav a {
+text-decoration: none;
+font-size: 25px;
+color: #ffffff;
+text-shadow: 1px 1px 2px #acff9b;
+}
+
+.blog-preview {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 20px;
+max-width: 80%;
+margin: 80px auto;
+padding: 25px 30px;
+background-color: #acff9b;
+border-radius: 12px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-preview img {
+width: 35%;
+height: auto;
+border-radius: 12px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-text {
+display: flex;
+flex-direction: column;
+text-align: left;
+font-size: larger;
+color: #ffffff;
+text-shadow: 1px 1px 2px #081b09;
+}
+
+.gallery {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 20px;
+max-width:100%;
+margin: 40px auto;
+}
+
+.item {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.item img {
+width: 100%;
+height: auto;
+display: block;
+border-radius: 12px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+background-color: #acff9b;
+padding: 20px;
+text-align: center;
+font-size: 25px;
+color: #ffffff;
+border-radius: 12px;
+text-shadow: 1px 1px 2px #081b09;
+}
+
+h1,
+h2 {
+font-size: 30px;
+color: #d6f467;
+text-shadow: 1px 1px 2px #081b09;
+}
+
+.home-text,
+.blog-page-text {
+max-width: 700px;
+margin: 40px auto;
+padding: 25px;
+border-radius: 12px;
+text-align: center;
+font-size: 30px;
+color: #ffffff;
+text-shadow: 1px 1px 2px #081b09;
+background-color: #acff9b;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+background-color: #229c5b;
+padding: 30px 80px;
+margin-top: 60px;
+}
+
+.footer ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.footer li {
+margin-bottom: 6px;
+font-size: 14px;
+color: #ffffff;
+text-shadow: 1px 1px 2px #081b09;
+}
+
+.social-icons img {
+width: 30px;
+margin-right: 10px;
+vertical-align: middle;
+}
