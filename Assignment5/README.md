@@ -1,5 +1,4 @@
-# Assignment 4 Reflection
+# Assignment 5 Reflection
 
-I enjoyed learning about Flexbox and Grid because i like how organized my layouts are now. Flexbox was helpful for lining things up side by side and Grid made it easier to arrange images and text in rows
-and columns. I think both of them will make future projects easier because they help keep pages neat and more consistent. Right now I really like Grid because I liked being able to build a more visual layout
-with it.
+I liked working with components because it made my website easier to organize and build. Flexbox helped me line things up cleanly, and Grid made it simple to structure my gallery.
+This assignment helped me understand how to break a website into sections instead of doing everything at once.
